@@ -15,9 +15,9 @@ def main():
         # pega o endereço da Máscara e salva em netMask
         netMask = fc.replace(arquivo, 2)
 
-        # passa os dois valores para decimal
-        fc.decimal(ipAddr)
-        fc.decimal(netMask)
+        # motor do codigo
+        fc.execucao(ipAddr, netMask)
+
 
 if __name__ == "__main__":
     main()
