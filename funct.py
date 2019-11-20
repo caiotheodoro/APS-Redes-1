@@ -162,3 +162,17 @@ def classe_ip(endereco):
         return errCC
     else:
         return err
+
+
+
+#calcula o Ip da rede
+
+
+def calc_ipRede(ipAddr_Dlist,netMask_Dlist):
+    ipRede[]
+    for i in range(4):
+    ipRede[i] =  ipAddr_Dlist[i] & netMask_Dlist[i]
+    return ipRede
+
+
+#calcula o broadcast
